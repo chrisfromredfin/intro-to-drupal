@@ -1,0 +1,66 @@
+@keyframes holdfade {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.reveal .slides {
+  background-color: transparentize($backgroundColor, .2);
+  border-top: 10px solid $orange;
+
+  &::before {
+    background-color: transparentize(white, 0.8);
+    background-image: url('redfin-logo-mark.svg');
+    background-repeat: no-repeat;
+    background-size: 1.25em 1.25em;
+    background-position: center center;
+    border-radius: 50%;
+    content: ' ';
+    display: block;
+    height: 2em;
+    left: 1em;
+    padding: 0.5em;
+    position: fixed;
+    top: 1em;
+    width: 2em;
+  }
+}
+
+.reveal section.present {
+  // Secondary image
+  img.secondary {
+    position: fixed;
+    animation: holdfade 1.25s;
+    top: 1em;
+    left: calc(2em + 100px);
+    border-radius: 50%;
+    margin: 0;
+
+  }
+
+  // Thumbrow of images
+  .thumbrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      border-width: 0;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: .5em;
+    }
+  }
+}
+
+.reveal.overview .slides section {
+  background-color: transparentize($backgroundColor, 0.2);
+}
