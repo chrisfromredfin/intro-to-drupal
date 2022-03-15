@@ -157,7 +157,7 @@ https://www.drupal.org/association/drupalcon/locations
 
 # Stack Starter
 
-https://stackstarter.io/spin
+https://app.stackstarter.io/
 
 # <span style="text-transform: lowercase">unh</span>
 is your _spin code_
