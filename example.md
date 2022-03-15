@@ -159,14 +159,16 @@ https://www.drupal.org/association/drupalcon/locations
 
 https://stackstarter.io/spin
 
-# <span style="text-transform: lowercase">unhd8</span>
+# <span style="text-transform: lowercase">unh</span>
 is your _spin code_
 
 --
 
 # Get Logged In
 
-Your username and password should appear in your StackStarter dashboard.
+# <span style="text-transform: lowercase">admin / test</span>
+are your _Drupal login credentials_
+
 
 --
 
